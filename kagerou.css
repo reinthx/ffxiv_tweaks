@@ -5,12 +5,10 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-#header .flex-column-i-name,
-#header .flex-column-deal-per-second,
-#header .flex-column-heal-per-second,
-#header .flex-column-heal-over {
+#header .flex-column {
   font-weight: normal !important; /* Override bold styling */
 }
+
 
 .text-bold-outline {
   font-weight: bold;
