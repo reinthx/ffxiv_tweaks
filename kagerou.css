@@ -116,10 +116,7 @@ li#init-menu {
   align-self: stretch;
 }
 
-.flex-column.flex-column-heal-over,
-.flex-column.flex-column-etc-death,
-.flex-column.flex-column-deal-per-second,
-.flex-column.flex-column-heal-per-second {
+.flex-column {
   font-size: 20px;
   flex-grow: 1;
   min-width: 0;
