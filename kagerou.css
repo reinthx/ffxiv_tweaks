@@ -155,7 +155,7 @@ small.dps.lower.with-larger-digits {
 }
 
 .flex-column-i-icon {
-  background-color: rgba(8, 8, 8, 0.85);
+  background-color: rgba(8, 8, 8, 0.5);
   border-right: 0.1em solid #000;
   flex-grow: 0;
   flex-shrink: 0;
