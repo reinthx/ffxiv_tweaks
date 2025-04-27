@@ -6,7 +6,7 @@ body {
 }
 
 #header .flex-column {
-  font-weight: normal !important; /* Override bold styling */
+  font-weight: normal !important;
 }
 
 
@@ -104,7 +104,7 @@ li#init-menu {
   background-color: rgba(8, 8, 8, 0.6) !important;
 }
 
-/* Flex Column Styles */
+
 .flex-column.flex-column-i-name {
   width: auto;
   font-size: 18px;
@@ -154,10 +154,17 @@ small.dps.lower.with-larger-digits {
   border-image-slice: 1;
 }
 
-/* Icon Styles */
 .flex-column-i-icon {
   background-color: rgba(8, 8, 8, 0.85);
   border-right: 0.1em solid #000;
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: 2rem;
+  height: 2rem;
+  font-size: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 span.flex-column {
